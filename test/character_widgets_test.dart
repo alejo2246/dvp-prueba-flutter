@@ -24,7 +24,7 @@ class MockCharactersProvider extends ChangeNotifier
 
   @override
   String searchQuery = "";
-  
+
   @override
   List<CharacterModel> characters = [];
 

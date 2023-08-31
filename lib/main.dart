@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider(create: (context) => EpisodeProvider()),
         ],
         child: MaterialApp(
+          debugShowCheckedModeBanner: false,
           title: 'Rick and Mory App',
           theme: ThemeData(
             colorScheme:
